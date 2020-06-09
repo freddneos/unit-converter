@@ -1,6 +1,4 @@
-// Copyright 2018 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+
 
 import 'package:flutter/material.dart';
 
@@ -9,14 +7,6 @@ import 'package:udacityapp/unit.dart';
 
 final _backgroundColor = Colors.green[100];
 
-/// Category Route (screen).
-///
-/// This is the 'home' screen of the Unit Converter. It shows a header and
-/// a list of [Categories].
-///
-/// While it is named CategoryRoute, a more apt name would be CategoryScreen,
-/// because it is responsible for the UI at the route's destination.
-///
 
 class CategoryRoute extends StatefulWidget {
   const CategoryRoute();
